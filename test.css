@@ -1,0 +1,158 @@
+html	{
+width:100%;
+}
+body	{
+margin:0;
+background-color:#f4f4f6;
+font-family:"Verdana", sans-serif;
+}
+h1	{
+font-size:70%;
+}
+a	{
+color: rgb(105,202,235);
+text-decoration:none;
+}
+/* Header Styles */
+header	{
+color:#FFFFFF;
+background-color: rgb(105,202,235);
+background: url(b-bg.jpg);
+height:25em;
+}
+.header-text	{
+padding:0 5em;
+}
+.header-text-space	{
+padding:0 2.5em;
+}
+.sub-header-text	{
+padding:0 20em;
+text-align:center;
+font-weight:lighter !important;
+}
+.sub-header-headline	{
+font-size:30px;
+padding: 0 7em;
+text-align:center;
+font-weight:lighter !important;
+}
+.sub-header	{
+background-color:black;
+color:white;
+height:2em;
+}
+.sub-name	{
+float:right;
+padding-left:0em;
+}
+a .sub-name 	{
+color:darkgrey;
+}
+.company-name{
+float:left;
+}
+.down-arrow	{
+width:3em;
+margin-left:50%;
+margin-top:5%;
+opacity:0.5;
+}
+/* Card Style */
+#content	{
+margin-top:-3em;
+padding:0 5em;
+}
+#card	{
+display: inline-block;
+background: #FFFFFF;
+box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+margin: 0 2px 15px;
+padding-bottom: 5px;
+opacity: 1;
+width:90%;
+min-height:450px;
+max-height:450px;
+}
+#card-no-contain	{
+display: inline-block;
+margin: 0 2px 15px;
+padding-bottom: 5px;
+padding:0;
+opacity: 1;
+width:90%;
+}
+#card img	{
+width:100%;
+}
+#card  p 	{
+padding:25px;
+}
+.github-image	{
+width:20px !important;
+padding-left:25px;
+position
+}
+/* Columns */
+.clear {
+clear: both;
+}
+.col{
+  min-height:20px;
+  margin-bottom: 10px;
+  width:100%;
+  float:left;
+  box-sizing:border-box;
+}
+.row	{
+overflow:hidden;
+}
+.col{
+    width:33%;
+    float:left;
+}
+.head-contain-image	{
+width:100%;
+height:240px;
+}
+.col2 .head-contain	{
+background-color:#61e6bb;
+width:100%;
+height:250px;
+}
+.col3 .head-contain	{
+background-color:#d65327;
+width:100%;
+height:250px;
+}
+.col4 .head-contain	{
+background-color:#9676a5;
+width:100%;
+height:250px;
+}
+.col5 .head-contain	{
+background-color:#bbb932;
+width:100%;
+height:250px;
+}
+/*Footer*/
+footer	{
+color:grey;
+opacity:0.4;
+text-align:center;
+margin-left:10em;
+line-height: 0em;
+padding-bottom: 4em;
+padding-top: 2em;
+}
+/* @Media Queries */
+@media screen and (max-width:1400px) {
+        .col {
+     width: 33.333333%;
+  }
+}
+@media screen and (max-width:800px) {
+        .col {
+     width: 50%;
+  }
+}
